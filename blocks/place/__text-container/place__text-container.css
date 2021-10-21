@@ -1,0 +1,12 @@
+.place__text-container {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .place__text-container {
+    min-width: 288px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
