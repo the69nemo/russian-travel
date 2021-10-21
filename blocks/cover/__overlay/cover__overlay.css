@@ -2,7 +2,7 @@
   background: rgba(42, 44, 47, .3) no-repeat;
   min-width: 100%;
   min-height: 740px;
-  background-position: center ;
+  background-position: center;
   background-size: cover;
   transition: opacity 0.2s linear;
   display: flex;
@@ -12,7 +12,7 @@
 }
 
 .cover__overlay:hover {
-  background: rgba(42, 44, 47, .8) no-repeat;;
+  background: rgba(42, 44, 47, .8) no-repeat;
 }
 
 @media screen and (max-width: 1279px) {
