@@ -1,13 +1,13 @@
-.footer__column-links {
+.footer__column-list {
   margin: 0;
   padding: 0;
+  list-style: none;
   display: flex;
   flex-wrap: wrap;
-  flex-basis: 1fr;
 }
 
 @media screen and (max-width: 767px) {
-  .footer__column-links {
+  .footer__column-list {
     flex-direction: column;
   }
 }

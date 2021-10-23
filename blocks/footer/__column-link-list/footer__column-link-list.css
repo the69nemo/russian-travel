@@ -1,0 +1,13 @@
+.footer__column-link-list:not(:last-child) {
+  margin-right: 18px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__column-link-list:not(:last-child) {
+    margin-bottom: 32px;
+  }
+
+  .footer__column-link-list:last-child{
+    margin-bottom: 48px;
+  }
+}

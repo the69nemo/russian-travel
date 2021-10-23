@@ -21,7 +21,6 @@
   .intro {
     min-width: 320px;
     padding: 64px 16px 0 16px;
-    box-sizing: border-box;
   }
 }
 

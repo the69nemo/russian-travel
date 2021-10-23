@@ -4,6 +4,25 @@
   max-width: 1184px;
   min-height: 740px;
   background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.cover__background::before {
+  content: '';
+  background: rgba(42, 44, 47, .3) no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.cover__background:hover::before {
+  background: rgba(42, 44, 47, .8) no-repeat;
 }
 
 @media screen and (max-width: 1279px) {

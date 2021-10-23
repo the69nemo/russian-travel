@@ -1,4 +1,4 @@
-.lead__sibtitle {
+.lead__subtitle {
   max-width: 640px;
   margin: 0 auto;
   padding-top: 32px;
@@ -10,19 +10,14 @@
 }
 
 @media screen and (max-width: 1279px) {
-  .lead__sibtitle {
+  .lead__subtitle {
     padding-bottom: 56px;
   }
 }
 
-@media screen and (max-width: 1023px) {
-  .lead__sibtitle {
-    padding-bottom: 56px;
-  }
-}
 
 @media screen and (max-width: 767px) {
-  .lead__sibtitle {
+  .lead__subtitle {
     padding-top: 16px;
     padding-bottom: 40px;
     font-size: 16px;

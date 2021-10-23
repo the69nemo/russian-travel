@@ -10,25 +10,13 @@
   transition: opacity .4s linear;
 }
 
-.footer__column-link:not(:last-child) {
-  margin-right: 18px;
-}
-
 .footer__column-link:hover {
-  opacity: .5;
+  opacity: .8;
 }
 
 @media screen and (max-width: 767px) {
   .footer__column-link {
     font-size: 24px;
     line-height: 100%;
-  }
-
-  .footer__column-link:not(:last-child) {
-    margin-bottom: 32px;
-  }
-
-  .footer__column-link:last-child{
-    margin-bottom: 48px;
   }
 }
